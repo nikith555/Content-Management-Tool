@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Site</title>
+  <link rel="stylesheet" href = "css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</head>
+<body>
+        <nav class="navbar navbar-expand-sm navbar-light bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand heading" href="#">Profile</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
+                    aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarID">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#About">About</a>
+                        <a class="nav-link active" aria-current="page" href="#Service">Service</a>
+                        <a class="nav-link active" aria-current="page" href="#Contact">Contact</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+       <div class = "profile-con d-flex flex-row justify-content-center text-center " id = "Home">
+          <div class="pro-details pt-5 pr-5">
+            <h1 class=" heading">Hello!</h1>
+            <p class="name">I'm Nikith kumar<br/>Full-stack Developer
+            </p>
+            <button class="button">View CV</button>
+          </div>
+          <div class="pl-3 pt-5">
+            <img src="C:\Users\mallikharjun\Downloads\petr-sevcovic-e12wQLAjQi0-unsplash.jpg" class="profile-1"/>
+          </div>
+       </div>
+       <div class="About-sec d-flex flex-row justify-content-center mb-5" id="About">
+        <div class="order-1">
+            <img src="C:\Users\mallikharjun\Downloads\petr-sevcovic-e12wQLAjQi0-unsplash.jpg" class="profile-2"/>
+        </div>
+        <div class="pl-5 order-2 order-md-2">
+            <h1 class="about">About Me</h1>
+            <p class = "about-para">Front-end <span class="high">Developer</span></p>
+            <p class="pro-para">
+                My name is Nikith kumar, and I am currently looking for a job in Frontend Development. I have a bachelor's degree in Electrical and Electronic Engineering at JPNCE.
+                People find me to be an upbeat, self-motivated team player with excellent communication skills.
+                I am a dedicated person with a family of five. I enjoy reading, and the Knowledge and perspective that my reading gives me have strengthened my teaching skills and presentaion abilities.
+            </p>
+            <button class="button">Read More</button>
+        </div>
+       </div>
+       <div class = "service-sec pt-5 mb-3" id = "Service">
+       <div class="col-12">
+        <h1 class="about">
+            Service
+        </h1>
+        <div class="d-flex flex-row col-3">
+            <div class="shadow menu-card-title p-3 ml-5 mb-3">
+                <h1 class="card-title">
+                    Front-end Development
+                </h1>
+                <p class = "paragraph">A front-end developer builds the front-end portion of website and web application. The part users see and interact with.
+                    A front-end developer creates such as HTML,CSS, and JavaScript that allow users to access and interact with the site or app.
+                </p>
+                <a href="" class="menu-item-link">
+                    View All
+                    <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="shadow menu-card-title p-3 ml-5 mb-3">
+                <h1 class="card-title">
+                    Backend-end Development
+                </h1>
+                <p class = "paragraph">Back-end development means working on server-side software, which foucses on everything you can't see on a website. 
+                    Back-end developers ensure the website performs correctly,back-end logic, APIs, and servers. 
+                </p>
+                <a href="" class="menu-item-link">
+                    View All
+                    <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="shadow menu-card-title p-3 ml-5 mb-3">
+                <h1 class="card-title">
+                    Database Developers
+                </h1>
+                <p class = "paragraph">Database developers are responsible for the design, programming,construction,and implementation of new database, as well as modifying existing database for platform upadtes and changes in user needs.
+                </p>
+                <a href="" class="menu-item-link">
+                    View All
+                    <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    
+    
+    </div>
+      </div>
+       </div>
+       <div class="footer-section pt-5 pb-5" id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    
+                    <h1 class="footer-section-mail-id">nikith123@gmail.com</h1>
+                    <p class="footer-section-address">
+                        123 Madhapur, Hydarabad, Telangana, India.
+                    </p>
+                    <div class="input-form d-flex flex-column mb-5 text-center">
+                        <label class="lable">Your Name:</label>
+                        <input type="text" class="input"  placeholder="Enter Your Name">
+                        <label class="lable">Your Number:</label>
+                        <input types="password" class="input" placeholder="Enter Your Number">
+                    </div>
+                    <button class=" button">Sumbit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+.heading {
+    font-weight: bold;
+    color: White;
+    font-size: 70px;
+}
+.profile-con{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    background-color: white;
+    background-size: cover;
+    height: 100vh;
+}
+.pro-details{
+    padding: 30px;
+    margin: 20px;
+
+}
+.heading{
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 90px;
+    font-weight: bold;
+}
+.name {
+    font-family: "Roboto";
+    font-size: 25px;
+    color: #7b7b7b;
+
+}
+.button {
+    color: #d0b200;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    font-family: "Roboto";
+    border-width: 2px;
+    border-color: #d0b200;
+    border-radius: 8px;
+}
+
+.profile-1{
+    height: 260px;
+    width: 240px;
+    border-radius: 20px;
+}
+.About-sec {
+    padding: 20px;
+    margin-left: 60px;
+
+}
+.about-para{
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+.high {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #323f4b;
+    font-weight: bold;
+}
+.pro-para{
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #323f4b;
+    
+}
+.about {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: bold;
+}
+.profile-2{
+    height: 320px;
+    width: 240px;
+    border-radius: 20px;
+}
+.service-sec {
+    padding: 20px;
+    margin-left: 60px;
+
+}
+.card-title{
+    color: #323f4b;
+    font-size: 30px;
+    font-family: "Roboto";
+
+}
+.card {
+    margin: 20px;
+    padding: 20px;
+}
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+    width: 600px;
+    height: 480px;
+}
+.paragraph{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #323f4b;
+    
+}
+.menu-item-link{
+    color: #d0b200;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+.lable {
+    display: flex;
+    text-align: left;
+}
+.input {
+    width: 80%;
+    margin-bottom: 20px;
+}
